@@ -3,7 +3,7 @@ https://www.geeksforgeeks.org/
 Interview Questions from Amazon:
     First 3 are rookie level the next MUST be more difficult.
 
-    1. Replace every element with the greatest element on the right side
+    1. Replace every element with the greatest element on the right side                    -COMPLETED
         Given an array of integers, 
         replace every element with the next greatest element
         (greatest element on the right side) in the array. 
@@ -14,6 +14,7 @@ Interview Questions from Amazon:
     https://www.geeksforgeeks.org/replace-every-element-with-the-greatest-on-right-side/
 
     2. Highest power of 2 less than or equal to given number
+                            -COMPLETED
         Given a number n, find the highest power of 2 that 
         is smaller than or equal to n.
     https://www.geeksforgeeks.org/highest-power-2-less-equal-given-number/
