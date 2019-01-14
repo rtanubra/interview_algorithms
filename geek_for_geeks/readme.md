@@ -1,5 +1,8 @@
 https://www.geeksforgeeks.org/
+
 Interview Questions from Amazon:
+    First 3 are rookie level the next MUST be more difficult.
+
     1. Replace every element with the greatest element on the right side
         Given an array of integers, 
         replace every element with the next greatest element
@@ -9,3 +12,15 @@ Interview Questions from Amazon:
         if the array is {16, 17, 4, 3, 5, 2}, 
         then it should be modified to {17, 5, 5, 5, 2, -1}.
     https://www.geeksforgeeks.org/replace-every-element-with-the-greatest-on-right-side/
+
+    2. Highest power of 2 less than or equal to given number
+        Given a number n, find the highest power of 2 that 
+        is smaller than or equal to n.
+    https://www.geeksforgeeks.org/highest-power-2-less-equal-given-number/
+
+    3. Given a binary string, count number of substrings that start and end with 1
+        Given a binary string, count number of substrings that
+        start and end with 1. For example, if the input string 
+        is “00100101”, then there are three substrings “1001”,
+        “100101” and “101”.
+    https://www.geeksforgeeks.org/given-binary-string-count-number-substrings-start-end-1/
