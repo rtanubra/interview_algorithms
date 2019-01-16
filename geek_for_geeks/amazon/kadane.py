@@ -15,7 +15,43 @@ Constraints:
 -107 ≤ A[i] <= 107
 
 egs 
-1,2,3,-2,5 --> 6
+1,2,3,-2,5 --> 9
 -1,-2,-3,-4--> -1
 1,2,3,-5,10,12 -> 22
 """
+
+def kad(some_arr):
+    my_sums = []
+    arrs = []
+    i=0
+    while i < len(some_arr):
+        for x in range(1,len(some_arr)+1):
+            arrs.append(some_arr[i:i+x])
+            my_sums.append(sum(some_arr[i:i+x]))
+        i+=1
+    #print(f"Max obtained is: {max(my_sums)}, from {arrs[my_sums.index(max(my_sums))]}")
+    if len(my_sums) == 0:
+        return 0
+    return max(my_sums)
+    
+
+def test_fx():
+    inputs = [
+        [1,2,3,-2,5],[1,2,3,-10,10,12],[-1,-2,-3,-4],[1,2,3,-5,10,12],[2],[]
+    ]
+    outputs = [
+        9,22,-1,23,2,0
+    ]
+    for x in range(len(inputs)):
+        expected = outputs[x]
+        obtained = kad(inputs[x])
+        print(f"Test #{x+1} {inputs[x]}, expecting {outputs[x]}")
+        if expected == obtained:
+            print("pass")
+        else:
+            print(f"failed test number {x+1}")
+            print(f"Obtained {obtained}, instead of {expected}")
+            break
+    
+
+test_fx()
