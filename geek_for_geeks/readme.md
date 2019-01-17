@@ -2,8 +2,8 @@ https://www.geeksforgeeks.org/
 
 Interview Questions from Amazon:
     First 3 are rookie level the next MUST be more difficult.
-
-    1. Replace every element with the greatest element on the right side                    -COMPLETED
+                     -COMPLETED
+    1. Replace every element with the greatest element on the right side                   
         Given an array of integers, 
         replace every element with the next greatest element
         (greatest element on the right side) in the array. 
@@ -32,6 +32,7 @@ Interview Questions from Amazon:
     https://practice.geeksforgeeks.org/problems/kadanes-algorithm/0
 
     5.L_I_S Longest Increasing Subsequence - Medium
+                            -COMPLETED
         Given a sequence, find the length of the longest increasing 
         subsequence from a given sequence .
         The longest increasing subsequence means to find a subsequence of a 
