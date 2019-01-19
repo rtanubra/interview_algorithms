@@ -20,6 +20,7 @@ Interview Questions from Amazon:
     https://www.geeksforgeeks.org/highest-power-2-less-equal-given-number/
 
     3. Given a binary string, count number of substrings that start and end with 1
+                            -COMPLETED
         Given a binary string, count number of substrings that
         start and end with 1. For example, if the input string 
         is “00100101”, then there are three substrings “1001”,
