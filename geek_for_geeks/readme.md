@@ -49,4 +49,12 @@ Interview Questions from Google:
 
         Given an array A of positive integers. The task is to find the
         maximum of j - i subjected to the constraint of A[i] <= A[j].
+    2.Find Median in a Stream - hard
+        
+        Given an input stream of N integers the task is to insert
+        integers to stream and print the median of the new stream
+        formed by each insertion of X to the stream
 
+        example Flow in stream : 5, 15, 1, 3 
+
+        https://practice.geeksforgeeks.org/problems/find-median-in-a-stream/0
