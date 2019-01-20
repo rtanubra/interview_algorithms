@@ -1,6 +1,7 @@
 https://www.geeksforgeeks.org/
 
 Interview Questions from Amazon:
+
     First 3 are rookie level the next MUST be more difficult.
                      -COMPLETED
     1. Replace every element with the greatest element on the right side                   
@@ -42,4 +43,10 @@ Interview Questions from Amazon:
         possible. This subsequence is not necessarily contiguous, or unique.
     https://practice.geeksforgeeks.org/problems/longest-increasing-subsequence/0
 
+Interview Questions from Google:
+    
+    1.Maximum Index -Medium:
+
+        Given an array A of positive integers. The task is to find the
+        maximum of j - i subjected to the constraint of A[i] <= A[j].
 
